@@ -1,5 +1,5 @@
 const CACHE_NAME = 'voice-notes-pwa-v1';
-const APP_SHELL = ['/', '/index.html', '/manifest.webmanifest'];
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.svg', './icons/icon-512.svg'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
